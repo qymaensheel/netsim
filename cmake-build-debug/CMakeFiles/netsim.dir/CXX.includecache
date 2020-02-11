@@ -1,0 +1,74 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/factory.hpp
+nodes.hpp
+../include/nodes.hpp
+vector
+-
+
+../include/helpers.hpp
+functional
+-
+random
+-
+types.hpp
+../include/types.hpp
+
+../include/nodes.hpp
+package.hpp
+../include/package.hpp
+types.hpp
+../include/types.hpp
+helpers.hpp
+../include/helpers.hpp
+storage_types.hpp
+../include/storage_types.hpp
+memory
+-
+
+../include/package.hpp
+set
+-
+types.hpp
+../include/types.hpp
+
+../include/storage_types.hpp
+list
+-
+package.hpp
+../include/package.hpp
+types.hpp
+../include/types.hpp
+helpers.hpp
+../include/helpers.hpp
+optional
+-
+
+../include/types.hpp
+functional
+-
+map
+-
+
+C:/Users/bnier/Google Drive/AGH/S3/Informatyka/netsim/main.cpp
+iostream
+-
+nodes.hpp
+C:/Users/bnier/Google Drive/AGH/S3/Informatyka/netsim/nodes.hpp
+package.hpp
+C:/Users/bnier/Google Drive/AGH/S3/Informatyka/netsim/package.hpp
+storage_types.hpp
+C:/Users/bnier/Google Drive/AGH/S3/Informatyka/netsim/storage_types.hpp
+types.hpp
+C:/Users/bnier/Google Drive/AGH/S3/Informatyka/netsim/types.hpp
+helpers.hpp
+C:/Users/bnier/Google Drive/AGH/S3/Informatyka/netsim/helpers.hpp
+factory.hpp
+C:/Users/bnier/Google Drive/AGH/S3/Informatyka/netsim/factory.hpp
+
